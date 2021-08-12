@@ -1,0 +1,21 @@
+{
+    "name": "test/firstpackage",
+    "description": "test composer package-mars",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "apache",
+    "authors": [
+        {
+            "name": "mars",
+            "email": "18017657713@163.com"
+        }
+    ],
+       "autoload":{
+	"psr-4":{
+		"Wechat\\":"src/code"
+	}
+          },
+    "minimum-stability": "dev"
+}
